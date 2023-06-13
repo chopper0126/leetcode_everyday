@@ -6,7 +6,7 @@ import java.util.Map;
 public class T_6_11 {
     public static void main(String[] args) {
         ListNode head = new ListNode(1);
-        head.next = new ListNode(-1);
+        head.next = new ListNode(-2);
 
         System.out.println(removeZeroSumSublists(head));
     }
