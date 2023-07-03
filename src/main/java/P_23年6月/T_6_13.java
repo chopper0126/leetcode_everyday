@@ -13,6 +13,7 @@ public class T_6_13 {
         System.out.println(unequalTriplets2(new int[]{2,4,4,4,3}));
     }
     public static int unequalTriplets(int[] nums) {
+
         int ans = 0;
         int n = nums.length;
         for (int i = 0; i < n; i++) {

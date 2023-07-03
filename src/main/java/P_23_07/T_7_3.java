@@ -9,6 +9,7 @@ public class T_7_3 {
     /*1.反转链表l1;2.反转链表l2;3.两数相加（得到l3）；4.反转l3
      */
     public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
+
         l1 = reverseList(l1);
         l2 = reverseList(l2);
         ListNode l3 = addTwo(l1,l2);
