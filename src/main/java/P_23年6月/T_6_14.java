@@ -6,6 +6,7 @@ public class T_6_14 {
         System.out.println(numTimesAllBlue2(new int[]{4,1,2,3}));
     }
     public static int numTimesAllBlue(int[] flips) {
+
         int ans = 0;
         int n = flips.length;
         String str = "";
