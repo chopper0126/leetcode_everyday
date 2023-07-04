@@ -25,6 +25,7 @@ public class T_6_14 {
     }
 
     private static boolean isValid(String s, int index) {
+
         for (int i = 0; i < index; i++) {
             if(s.charAt(i) == '0') return false;
         }
